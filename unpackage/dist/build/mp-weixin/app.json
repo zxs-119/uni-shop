@@ -1,6 +1,9 @@
 {
   "pages": [
-    "pages/index/index"
+    "pages/home/home",
+    "pages/cate/cate",
+    "pages/cart/cart",
+    "pages/my/my"
   ],
   "subPackages": [],
   "window": {
@@ -8,6 +11,34 @@
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "static/shouye-shouye.png",
+        "selectedIconPath": "static/home-copy.png"
+      },
+      {
+        "pagePath": "pages/cate/cate",
+        "text": "分类",
+        "iconPath": "static/wxbsousuotuiguang.png",
+        "selectedIconPath": "static/sousuo.png"
+      },
+      {
+        "pagePath": "pages/cart/cart",
+        "text": "购物车",
+        "iconPath": "static/20gouwuche.png",
+        "selectedIconPath": "static/gouwucheman.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/yonghu.png",
+        "selectedIconPath": "static/yonghu1.png"
+      }
+    ]
   },
   "usingComponents": {}
 }
