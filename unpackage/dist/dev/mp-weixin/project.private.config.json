@@ -4,5 +4,18 @@
     "setting": {
         "compileHotReLoad": false,
         "urlCheck": false
+    },
+    "condition": {
+        "miniprogram": {
+            "list": [
+                {
+                    "name": "cate",
+                    "pathName": "pages/cate/cate",
+                    "query": "",
+                    "launchMode": "default",
+                    "scene": null
+                }
+            ]
+        }
     }
 }
